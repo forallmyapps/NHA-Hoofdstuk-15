@@ -1,0 +1,167 @@
+body {
+  background-color: lightSteelBlue;
+  padding-top: 16px;
+  font-family: Verdana, sans-serif; 
+  font-size: 16px; 
+  color: blue;
+}
+
+input[type="text"], input[type="email"], textarea, button {
+  height: 22px;
+  display: block;
+  margin: 5px 5px;
+  width: 400px;
+  box-sizing: border-box; 
+  border-radius: 5px; 
+  box-shadow: inset 2px 2px 5px lightblue;
+}
+
+textarea {
+  background-color: whitesmoke;
+  height: 200px;
+  padding: 5px 5px;
+}
+	
+button {
+  width: 110px;
+  margin-top: 10px;
+  float: right;
+}
+
+button:active {
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 5px blue;
+}
+
+label {
+  font-size: 12px; 
+  color: black;
+  margin: 0px 8px;
+}  
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+h1 {
+  border-radius: 12px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  padding-inline: 12px;
+  background-color: #40E0D0;
+  color: black;
+  text-shadow: 2px 2px 2px gold;
+}
+
+h2 {
+  color: black;
+  text-shadow: 2px 2px 2px gold;
+}
+
+h3 {
+  color: black;
+  text-shadow: 2px 2px 2px gold;
+}
+
+h4 {
+  font-size: 12px; 
+  padding: 2px 8px 2px 8px;
+  background-color: #40E0D0;
+  color: black;
+  text-shadow: 1px 1px 2px gold;  
+}
+
+p {
+  width: 72%;	
+  margin: 0px auto;
+}
+
+.wrp-center-flex {
+  display: flex;            
+  justify-content: center;  
+}
+
+#container {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  padding-inline-start: 4px;  
+}
+
+ul a {
+  height: 20px;
+  color: black;
+  text-decoration: none;
+  padding: 12px;
+}
+
+ul li {
+  display: inline-block;
+  height: 22px;
+  width: 132px;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  border: 1px solid gold;
+  background-color: #40E0D0;
+  border-radius: 16px;
+}
+
+ul li:hover {
+  font-weight: bold;
+  background-color: cyan;
+  border: 1px solid purple;
+}
+
+ul li:hover a {
+  color: purple;
+}	
+
+.wrp-center-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrp-margin-auto {
+  margin: 0px auto;
+}
+
+table {
+  color: blue;
+  background-color: #40E0D0;
+  margin-inline: 0px auto;
+  border-collapse:collapse;
+  padding: 5px;
+}
+
+th, td {
+  text-align: left;
+  border: 1px solid black;
+  padding:0px 8px 0px 8px;
+}
+
+th {
+  color: black;
+}
+
+caption {
+  display: table-caption;
+  text-align: center;
+}
+
+.field {
+  width: 0px;
+  background-color: #40E0D0;
+  border-color: purple;
+  border-radius: 8px;	
+  padding-top: 12px;
+}
+
+legend {
+  color: black;
+}
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+
+<meta charset="utf-8">
+
+<meta name="author" content="AvBox">
+<meta name="description" content="Huiswerk voor de cursus web design, les 15">
+<meta name="keywords" content="Huiswerk, web design, HTML, les 15, CV, professionele informatie">
+
+<title>&lt; Contact &gt;</title>
+
+<link rel="stylesheet" href="../css/main.css">
+
+</head>
+
+<body>
+
+<header>
+<div class="wrp-center-flex">
+<h1>Mijn professionele webpagina</h1>
+</div>
+<div id="container" >
+<ul>
+<li><a href="../index.html">Hoofdpagina</a></li>
+<li><a href="./mijncv.html">Mijn CV</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+</header>
+
+<main>
+<h2>Neem contact op</h2>
+<br>
+<form id="contactform" action="https://formspree.io/f/myzgryda" method="post" > 
+<fieldset class="field wrp-center-auto" >
+<legend>Personalia</legend>
+<label for="fldVoornaam">Voornaam:</label>
+<input type="text" id="fldVoornaam" name="txtVoornaam" placeholder="Uw voornaam">
+<label for="fldAchternaam">Achternaam:</label>
+<input type="text" id="fldAchternaam" name="txtAchternaam" placeholder="Uw achternaam" required>
+<label for="fldAdres">Adres:</label>
+<input type="text" id="fldAdres" name="txtAdres" placeholder="Uw adres">
+</fieldset>
+<br>
+<fieldset class="field wrp-center-auto">
+<legend>Bericht</legend>
+<label for="fldEmail">E-mail:</label>
+<input type="email" id="fldEmail" name="txtEmail" placeholder="Uw E-mail adres" required>
+<label for="fldBerichtTekst">Bericht:</label>
+<textarea id="fldBerichtTekst" name="txtBerichtTekst" placeholder="Uw bericht" required></textarea>
+<button type="submit" name="btnSubmit">Go !</button>
+</fieldset>
+</form>
+<br>
+</main>
+
+<footer>
+<div class="wrp-center-flex">
+<h4>Copyright or copyleft in 2024 en later</h4>
+</div>
+</footer>
+
+</body>
