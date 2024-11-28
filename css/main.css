@@ -165,3 +165,16 @@ legend {
   color: black;
 }
 
+img.center { 
+  width: 48%;
+  display: block;
+  margin-left:auto; 
+  margin-right:auto;
+  box-shadow: 4px 4px 4px gray;
+}
+
+div.div_cntr {
+  display: block;
+  text-align:center; 
+  margin:0 auto;
+}
